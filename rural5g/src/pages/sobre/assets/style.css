@@ -1,0 +1,9 @@
+#sobre{
+    display: flex;
+}
+
+@media screen and (max-width: 700px){
+    #sobre{
+        flex-wrap: wrap;
+    }
+}
