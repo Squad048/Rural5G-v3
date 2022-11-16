@@ -6,7 +6,7 @@ const Header = () => {
         <header className="">
             <nav className="d-flex justify-content-center py-3">
                 <ul className="nav nav-pills">
-                    <li className="nav-item"><a href="/home" className="nav-link text-white fs-5" aria-current="page">Home</a></li>
+                    <li className="nav-item"><a href="/" className="nav-link text-white fs-5" aria-current="page">Home</a></li>
                     <li className="nav-item dropdown">
                         <a className="nav-link dropdown-toggle text-white fs-5" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                             Colaboradores

@@ -42,6 +42,8 @@ public class AlunoController {
 	@PostMapping("/signup")
 	@ResponseStatus(HttpStatus.CREATED)
 	public Aluno save(@RequestBody @Valid Aluno aluno) {
+		int turma = (int) Math.round(Math.random());
+		aluno.setTurma(turma);
 		return repository.save(aluno);
 	}
 

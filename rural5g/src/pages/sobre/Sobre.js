@@ -27,13 +27,13 @@ const Sobre = () => {
                                     e disseminação de informação.
                                 </p>
                             </div>
-                            <div className=''>
+                            <div>
                                 <h3>Visão</h3>
                                 <p>
                                     ProLorem ipsum dolor sit, amet consectetur adipisicing elit.
                                 </p>
                             </div>
-                            <div className=''>
+                            <div>
                                 <h3>Valores</h3>
                                 <p>
                                     Lorem ipsum dolor sit, amet consectetur adipisicing elit.

@@ -23,7 +23,6 @@ import com.rural5g.api.repository.EscolaRepository;
 
 @RestController
 @RequestMapping("/api/escolas")
-@CrossOrigin(origins = "*")
 public class EscolaController {
 
 	@Autowired

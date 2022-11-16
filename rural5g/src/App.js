@@ -10,6 +10,7 @@ import {BrowserRouter,Routes,Route} from "react-router-dom"
 import Voluntario from "./pages/cadastro/Voluntario";
 import Escola from "./pages/cadastro/Escola";
 import Doacao from "./pages/cadastro/Doacao";
+import AreaCadastro from "./pages/cadastro/AreaCadastro";
 
 function App() {
   return (
@@ -18,12 +19,13 @@ function App() {
 
       <Routes>
         <Route path="/signin" element={<Login />}/>
-        <Route path="/home" element={<Home />}/>
+        <Route path="/" element={<Home />}/>
         <Route path="/sobre" element={<Sobre />}/>
         <Route path="/contato" element={<Contato />}/>
         <Route path="/voluntario" element={<Voluntario />}/>
         <Route path="/escola" element={<Escola />}/>
         <Route path="/doacao" element={<Doacao />}/>
+        <Route path="/signup" element={<AreaCadastro />}/>
       </Routes>
       
       <Footer />

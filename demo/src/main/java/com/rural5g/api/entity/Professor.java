@@ -26,7 +26,6 @@ public class Professor {
 	private String nome;
 	@Column(length = 40, nullable = false, unique = true)
 	private String email;
-	@CPF
 	@Column(length = 11, nullable = false, unique = true)
 	private String cpf;
 	@Column(length = 11, nullable = false, unique = true)
