@@ -39,7 +39,7 @@ public class DoacaoController {
 		return repository.findById(id).orElseThrow(() -> new ResponseStatusException(HttpStatus.NOT_FOUND,"Doacao não encontrado"));
 	}
 	
-	@PostMapping("/signup")
+	@PostMapping
 	@ResponseStatus(HttpStatus.CREATED)
 	public Doacao save(@RequestBody @Valid Doacao doacao) {
 		return repository.save(doacao);
